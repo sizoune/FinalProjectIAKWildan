@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F50057"
+    tools:context="com.iak.mwi.finalprojectiakwildan.SplashScreen">
+
+    <TextView
+        android:id="@+id/judul1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="150dp"
+        android:text="Final Project Indonesia Android Kejar"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judul1"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:text="Created By"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judul1"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="40dp"
+        android:text="Muhammad Wildan Iskandar"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/avi"
+        style="@style/AVLoadingIndicatorView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:paddingBottom="10dp"
+        app:indicatorName="PacmanIndicator" />
+
+</RelativeLayout>
